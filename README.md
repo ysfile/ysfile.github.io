@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Starter Template For devlopr-jekyll
 
-You can use the [editor on GitHub](https://github.com/ysfile/ysfile.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo is a faster way to build your Blog using the [devlopr-jekyll](https://devlopr.netlify.com) Jekyll Theme. The site will be then automatically built using Github Pages at http://yourusername.github.io
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Steps to use this template: 
 
-### Markdown
+1. Create Your Blog Repository with name "**yourusername.github.io**", using the "**Use This Template** Button of this repo.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. Clone The Repo Locally 
 
-```markdown
-Syntax highlighted code block
+`$ git clone https://github.com/yourusername/yourusername.github.io`
 
-# Header 1
-## Header 2
-### Header 3
+3. Install Dependencies
 
-- Bulleted
-- List
+`$ bundle update`
+`$ bundle install`
 
-1. Numbered
-2. List
+4. Customize your site :
 
-**Bold** and _Italic_ and `Code` text
+You need to edit the `_config.yml` file to make the site your own.  
 
-[Link](url) and ![Image](src)
+4. Serve the Site 
+
+`$ bundle exec jekyll serve`
+
+5. Visit the site locally at http://localhost:4000
+
+After you are happy with your changes, you can push the changes
+
 ```
+$ cd yourusername.github.io
+$ git add .
+$ git commit -m "my site changes"
+$ git push origin master"
+```
+You can visit your website, which will be live with your changes at http://yourusername.github.io
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ysfile/ysfile.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
